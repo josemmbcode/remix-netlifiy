@@ -22,7 +22,7 @@ export function links() {
 export function meta() {
   return {
     title: "Remix Expenses - The Complete App",
-    description: "Manage your expenses with ease",
+    description: "Manage your expenses easily",
   };
 }
 
