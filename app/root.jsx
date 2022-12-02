@@ -79,7 +79,7 @@ export function ErrorBoundary({ error }) {
     <Document title="An error occurred">
       <main>
         <Error title="An error occurred">
-          <p>{error.message || "Something wnet wrong, please try again."}</p>
+          <p>{error.message || "Something wnet wrong, please try again..."}</p>
           <p>
             Back to <Link to="/">Safety</Link>
           </p>
